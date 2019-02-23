@@ -14,42 +14,61 @@
 </head>
 
 <body>
-
-
-
-    <h1>kalkulator.js</h1>
-    <small>ini dibuat dengan js dan css</small>
-
-    <div class="conatiner">
+    <div class="container">
         <div class="row">
-            <div class="col-sm "></div>
+            <div class="col-sm">
+                <h1>Mesin Penghitung Canggih</h1>
+                <small>By Afdhal Luthfi |Hackactivty8|JavaScript</small>
+            </div>
         </div>
+        <div class="row">
+            <div class="col-sm">
+                <form name="calculator">
+                    <table>
+                        <tr>
+                            <td colspan="4">
+                                <input type="text" name="display" id="display" disabled>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><input type="button" class="btn btn-success" name="satu" value="1" onclick="calculator.display.value += '1'"></td>
+                            <td><input type="button" class="btn btn-success" name="dua" value="2" onclick="calculator.display.value += '2'"></td>
+                            <td><input type="button" class="btn btn-success" name="tiga" value="3" onclick="calculator.display.value += '3'"></td>
+                            <td><input type="button" class="btn btn-danger" class="operator" name="tambah" value="+"
+                                    onclick="calculator.display.value += '+'">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><input type="button" class="btn btn-success" name="empat" value="4" onclick="calculator.display.value += '4'"></td>
+                            <td><input type="button" class="btn btn-success" name="lima" value="5" onclick="calculator.display.value += '5'"></td>
+                            <td><input type="button" class="btn btn-success" name="enam" value="6" onclick="calculator.display.value += '6'"></td>
+                            <td><input type="button" class="btn btn-danger" class="operator" name="kurang" value="-"
+                                    onclick="calculator.display.value += '-'">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><input type="button" class="btn btn-success" name="tujuh" value="7" onclick="calculator.display.value += '7'"></td>
+                            <td><input type="button" class="btn btn-success" name="delapan" value="8" onclick="calculator.display.value += '8'"></td>
+                            <td><input type="button" class="btn btn-success" name="sembilan" value="9" onclick="calculator.display.value += '9'"></td>
+                            <td><input type="button" class="btn btn-danger" class="operator" name="kali" value="x"
+                                    onclick="calculator.display.value += '*'">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><input type="button" class="btn btn-primary" id="clear" name="clear" value="c" onclick="calculator.display.value = ''"></td>
+                            <td><input type="button" class="btn btn-success" name="nol" value="0" onclick="calculator.display.value += '0'"></td>
+                            <td><input type="button" class="btn btn-dark" name="samadengan" value="=" onclick="calculator.display.value = eval(calculator.display.value)"></td>
+                            <td><input type="button" class="btn btn-danger" class="operator" name="bagi" value="/"
+                                    onclick="calculator.display.value += '/'">
+                            </td>
+                        </tr>
+                    </table>
+                </form>
 
+            </div>
+        </div>
     </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <script src="calculator.js"></script>
 </body>
 
 </html>
