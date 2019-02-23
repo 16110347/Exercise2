@@ -1,0 +1,53 @@
+* {
+    padding: 0;
+    margin: 0;
+    position: relative;
+    border: 1px solid black;
+}
+
+
+
+
+
+small {
+    color: blueviolet;
+    font-family: 'Oswald', sans-serif;
+    text-transform: lowercase;
+    text-align: center;
+    position: relative;
+    transform: translate(50% 50%);
+    top: 30px;
+    left: 440px;
+}
+
+h1 {
+    color: #718093;
+    text-align: center;
+    position: relative;
+    transform: translate(50% 50%);
+    top: 40px;
+
+
+}
+
+.btn {
+    margin-top: 5px;
+
+}
+
+.row3 {
+    position: relative;
+    transform: translate(50% 50%);
+    top: 60px;
+}
+
+.row4 {
+    position: relative;
+    transform: translate(50% 50%);
+    bottom: 50%px;
+    left: 40%;
+    right: 50%;
+
+    box-sizing: content-box;
+
+}
